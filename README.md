@@ -26,7 +26,8 @@ devtools::install_github("tidyverse/googlesheets4")
 |:----------:|:---------:|:--------:|:---------:|:--------:|:---------:|:--------:|:----------:|:---------:|:---------:|:--------:|:--------:|:--------:|
 | John Smith | 0 | 0 | 0 | 0 | 1 | 0 | 1 | 0 | 1 | 0 |  |  |
 | James Bond | 0 | 1 | 1 | 1 | 1 | 0 | 1 | 1 | 1 | 1 | 05/12/18 | 05/16/18 |
-where the columns "from" and "to" represent the date James Bond won't be available to serve as a TA.
+
+where the columns "from" and "to" represent the dates James Bond won't be available to serve as a TA.
 
 4. You need to know the start and end date, the dates where no labs are held, and the dates where TAs are doubled.
 
