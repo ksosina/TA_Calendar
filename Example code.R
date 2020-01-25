@@ -2,7 +2,7 @@
 
 
 ss <- "https://docs.google.com/spreadsheets/d/1X1r6uZvP4GxOdz87CdvAXsvOSnDe_cSVIzr-4_uS2BE/edit#gid=0"
-sheets_get(ss)
+# sheets_get(ss)
 
 
 # Load file
