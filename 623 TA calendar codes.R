@@ -1,4 +1,4 @@
-# How to use
+# How to use (Not need for this code)
 # 1 Install the following packages c("data.table", "dplyr","chron", "googlesheets4", "googledrive"). A code is provided below for google stuff
 
 # install.packages("devtools")
