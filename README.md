@@ -31,7 +31,7 @@ devtools::install_github("tidyverse/googlesheets4")
 
 5. Optionally you might need to know the experienced TAs so you can double up in the first week. The code is not here.
 
-6. Run all codes in ```Example code.R``` to see how it works.
+6. Run all codes in ```Example code.R``` to see how it works. You might need to create your own sheet first. It should be in the format shown above.
 
 7. Save and upload to google calendar for the TA account
 
