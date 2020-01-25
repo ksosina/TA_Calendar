@@ -20,7 +20,12 @@ devtools::install_github("tidyverse/googlesheets4")
 
 2. To use the google sheets you'd need to sign in.
 
-3. In the google sheets file, you must have info for all TAs. 1 means present and 0 means absent.  In addition, have two columns identifying the date range where people might be absent (see line 13 in create_620s_cl.R )
+3. In the google sheets file, you must have info for all TAs. 1 means present and 0 means absent.  In addition, have two columns identifying the date range where people might be absent (see line 13 in create_620s_cl.R ). For example
+
+| TA  | M (12:15) | M (2:30) | T (12:15) | T (2:30) | W (12:15) | W (2:30) | Th (12:15) | Th (2:30) | F (12:15) | F (2:30) | from | to |
+|:----------:|:---------:|:--------:|:---------:|:--------:|:---------:|:--------:|:----------:|:---------:|:---------:|:--------:|:--------:|:--------:|
+| John Smith | 0 | 0 | 0 | 0 | 1 | 0 | 1 | 0 | 1 | 0 |  |  |
+| James Bond | 0 | 1 | 1 | 1 | 1 | 0 | 1 | 1 | 1 | 1 | 05/12/18 | 05/16/18 |
 
 4. You need to know the start and end date, the dates where no labs are held, and the dates where TAs are doubled.
 
